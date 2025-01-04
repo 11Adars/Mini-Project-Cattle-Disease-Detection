@@ -1,0 +1,17 @@
+.upload-container {
+    background-image: url("https://www.grandmasterglobal.com/blog/wp-content/uploads/2024/03/ai-cowbreeding-1000x560.jpeg"); /* Path to your image */
+
+    filter: grayscale(30%);
+    filter: contrast(69%);
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    min-height: 100vh; /* Full viewport height */
+    display: flex; /* Use flexbox for centering content */
+    flex-direction: column; /* Arrange children vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    padding: 20px;
+    color: white; /* White text for better contrast */
+     /* Add text shadow for readability */
+}
